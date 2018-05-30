@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A1F78066F2B8A1747136F3 /* libPods-GOFlexWebViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3D68656D699F3D512D5621 /* libPods-GOFlexWebViewDemo.a */; };
+		EB00D49E20BEA88800BC4CD0 /* UIView+GoExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB00D49D20BEA88800BC4CD0 /* UIView+GoExtension.m */; };
+		EBAF3F3420BE4F52004763DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F3320BE4F52004763DC /* AppDelegate.m */; };
+		EBAF3F3720BE4F52004763DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F3620BE4F52004763DC /* ViewController.m */; };
+		EBAF3F3A20BE4F52004763DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF3F3820BE4F52004763DC /* Main.storyboard */; };
+		EBAF3F3C20BE4F55004763DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAF3F3B20BE4F55004763DC /* Assets.xcassets */; };
+		EBAF3F3F20BE4F55004763DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAF3F3D20BE4F55004763DC /* LaunchScreen.storyboard */; };
+		EBAF3F4220BE4F55004763DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F4120BE4F55004763DC /* main.m */; };
+		EBAF3F4B20BE5021004763DC /* GoFlexWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F4A20BE5021004763DC /* GoFlexWebViewController.m */; };
+		EBAF3F4E20BE508E004763DC /* GoFlexWebViewNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F4D20BE508E004763DC /* GoFlexWebViewNavigationBar.m */; };
+		EBAF3F5120BE51BB004763DC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAF3F5020BE51BB004763DC /* WebKit.framework */; };
+		EBAF3F5420BE520B004763DC /* GoWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F5320BE520B004763DC /* GoWKWebView.m */; };
+		EBAF3F5720BE5261004763DC /* GoFlexWebViewToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAF3F5620BE5261004763DC /* GoFlexWebViewToolBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		871B66417D7CA67EE04B2EFE /* Pods-GOFlexWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOFlexWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GOFlexWebViewDemo/Pods-GOFlexWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AC3D68656D699F3D512D5621 /* libPods-GOFlexWebViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GOFlexWebViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB00D49C20BEA88800BC4CD0 /* UIView+GoExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+GoExtension.h"; sourceTree = "<group>"; };
+		EB00D49D20BEA88800BC4CD0 /* UIView+GoExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoExtension.m"; sourceTree = "<group>"; };
+		EBAF3F2F20BE4F52004763DC /* GOFlexWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOFlexWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAF3F3220BE4F52004763DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBAF3F3320BE4F52004763DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBAF3F3520BE4F52004763DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBAF3F3620BE4F52004763DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBAF3F3920BE4F52004763DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAF3F3B20BE4F55004763DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAF3F3E20BE4F55004763DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAF3F4020BE4F55004763DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAF3F4120BE4F55004763DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBAF3F4920BE5021004763DC /* GoFlexWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoFlexWebViewController.h; sourceTree = "<group>"; };
+		EBAF3F4A20BE5021004763DC /* GoFlexWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoFlexWebViewController.m; sourceTree = "<group>"; };
+		EBAF3F4C20BE508E004763DC /* GoFlexWebViewNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoFlexWebViewNavigationBar.h; sourceTree = "<group>"; };
+		EBAF3F4D20BE508E004763DC /* GoFlexWebViewNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoFlexWebViewNavigationBar.m; sourceTree = "<group>"; };
+		EBAF3F5020BE51BB004763DC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EBAF3F5220BE520B004763DC /* GoWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoWKWebView.h; sourceTree = "<group>"; };
+		EBAF3F5320BE520B004763DC /* GoWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoWKWebView.m; sourceTree = "<group>"; };
+		EBAF3F5520BE5261004763DC /* GoFlexWebViewToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoFlexWebViewToolBar.h; sourceTree = "<group>"; };
+		EBAF3F5620BE5261004763DC /* GoFlexWebViewToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoFlexWebViewToolBar.m; sourceTree = "<group>"; };
+		EBAF3F5920BE842E004763DC /* GoFlexWebViewConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoFlexWebViewConstant.h; sourceTree = "<group>"; };
+		F9C36C1CA2719DE31B7EB1F7 /* Pods-GOFlexWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOFlexWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GOFlexWebViewDemo/Pods-GOFlexWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAF3F2C20BE4F52004763DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF3F5120BE51BB004763DC /* WebKit.framework in Frameworks */,
+				75A1F78066F2B8A1747136F3 /* libPods-GOFlexWebViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F14CD1A303D935D1BF7E4A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C36C1CA2719DE31B7EB1F7 /* Pods-GOFlexWebViewDemo.debug.xcconfig */,
+				871B66417D7CA67EE04B2EFE /* Pods-GOFlexWebViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBAF3F2620BE4F52004763DC = {
+			isa = PBXGroup;
+			children = (
+				EBAF3F3120BE4F52004763DC /* GOFlexWebViewDemo */,
+				EBAF3F3020BE4F52004763DC /* Products */,
+				EBAF3F4F20BE51BA004763DC /* Frameworks */,
+				2F14CD1A303D935D1BF7E4A5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAF3F3020BE4F52004763DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF3F2F20BE4F52004763DC /* GOFlexWebViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAF3F3120BE4F52004763DC /* GOFlexWebViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF3F4820BE4F73004763DC /* GOFlexWebView */,
+				EBAF3F3220BE4F52004763DC /* AppDelegate.h */,
+				EBAF3F3320BE4F52004763DC /* AppDelegate.m */,
+				EBAF3F3520BE4F52004763DC /* ViewController.h */,
+				EBAF3F3620BE4F52004763DC /* ViewController.m */,
+				EBAF3F3820BE4F52004763DC /* Main.storyboard */,
+				EBAF3F3B20BE4F55004763DC /* Assets.xcassets */,
+				EBAF3F3D20BE4F55004763DC /* LaunchScreen.storyboard */,
+				EBAF3F4020BE4F55004763DC /* Info.plist */,
+				EBAF3F4120BE4F55004763DC /* main.m */,
+			);
+			path = GOFlexWebViewDemo;
+			sourceTree = "<group>";
+		};
+		EBAF3F4820BE4F73004763DC /* GOFlexWebView */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF3F5920BE842E004763DC /* GoFlexWebViewConstant.h */,
+				EBAF3F4920BE5021004763DC /* GoFlexWebViewController.h */,
+				EBAF3F4A20BE5021004763DC /* GoFlexWebViewController.m */,
+				EBAF3F5220BE520B004763DC /* GoWKWebView.h */,
+				EBAF3F5320BE520B004763DC /* GoWKWebView.m */,
+				EBAF3F4C20BE508E004763DC /* GoFlexWebViewNavigationBar.h */,
+				EBAF3F4D20BE508E004763DC /* GoFlexWebViewNavigationBar.m */,
+				EBAF3F5520BE5261004763DC /* GoFlexWebViewToolBar.h */,
+				EBAF3F5620BE5261004763DC /* GoFlexWebViewToolBar.m */,
+				EB00D49C20BEA88800BC4CD0 /* UIView+GoExtension.h */,
+				EB00D49D20BEA88800BC4CD0 /* UIView+GoExtension.m */,
+			);
+			name = GOFlexWebView;
+			path = ../../GOFlexWebView;
+			sourceTree = "<group>";
+		};
+		EBAF3F4F20BE51BA004763DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBAF3F5020BE51BB004763DC /* WebKit.framework */,
+				AC3D68656D699F3D512D5621 /* libPods-GOFlexWebViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAF3F2E20BE4F52004763DC /* GOFlexWebViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAF3F4520BE4F55004763DC /* Build configuration list for PBXNativeTarget "GOFlexWebViewDemo" */;
+			buildPhases = (
+				876FB38DA15B881DD04FC098 /* [CP] Check Pods Manifest.lock */,
+				EBAF3F2B20BE4F52004763DC /* Sources */,
+				EBAF3F2C20BE4F52004763DC /* Frameworks */,
+				EBAF3F2D20BE4F52004763DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOFlexWebViewDemo;
+			productName = GOFlexWebViewDemo;
+			productReference = EBAF3F2F20BE4F52004763DC /* GOFlexWebViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAF3F2720BE4F52004763DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李二狗";
+				TargetAttributes = {
+					EBAF3F2E20BE4F52004763DC = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EBAF3F2A20BE4F52004763DC /* Build configuration list for PBXProject "GOFlexWebViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAF3F2620BE4F52004763DC;
+			productRefGroup = EBAF3F3020BE4F52004763DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAF3F2E20BE4F52004763DC /* GOFlexWebViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAF3F2D20BE4F52004763DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF3F3F20BE4F55004763DC /* LaunchScreen.storyboard in Resources */,
+				EBAF3F3C20BE4F55004763DC /* Assets.xcassets in Resources */,
+				EBAF3F3A20BE4F52004763DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		876FB38DA15B881DD04FC098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOFlexWebViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAF3F2B20BE4F52004763DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAF3F3720BE4F52004763DC /* ViewController.m in Sources */,
+				EBAF3F5420BE520B004763DC /* GoWKWebView.m in Sources */,
+				EBAF3F4220BE4F55004763DC /* main.m in Sources */,
+				EBAF3F5720BE5261004763DC /* GoFlexWebViewToolBar.m in Sources */,
+				EBAF3F4B20BE5021004763DC /* GoFlexWebViewController.m in Sources */,
+				EBAF3F3420BE4F52004763DC /* AppDelegate.m in Sources */,
+				EB00D49E20BEA88800BC4CD0 /* UIView+GoExtension.m in Sources */,
+				EBAF3F4E20BE508E004763DC /* GoFlexWebViewNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBAF3F3820BE4F52004763DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAF3F3920BE4F52004763DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAF3F3D20BE4F55004763DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAF3F3E20BE4F55004763DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAF3F4320BE4F55004763DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBAF3F4420BE4F55004763DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAF3F4620BE4F55004763DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C36C1CA2719DE31B7EB1F7 /* Pods-GOFlexWebViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = GOFlexWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agoer.GOFlexWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAF3F4720BE4F55004763DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871B66417D7CA67EE04B2EFE /* Pods-GOFlexWebViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = GOFlexWebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agoer.GOFlexWebViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAF3F2A20BE4F52004763DC /* Build configuration list for PBXProject "GOFlexWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAF3F4320BE4F55004763DC /* Debug */,
+				EBAF3F4420BE4F55004763DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAF3F4520BE4F55004763DC /* Build configuration list for PBXNativeTarget "GOFlexWebViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAF3F4620BE4F55004763DC /* Debug */,
+				EBAF3F4720BE4F55004763DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAF3F2720BE4F52004763DC /* Project object */;
+}
